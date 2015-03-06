@@ -1,0 +1,11 @@
+app_config:
+    resource: "@appConfigBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app_home:
+    resource: "@appHomeBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+
