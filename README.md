@@ -1,62 +1,22 @@
-Symfony Standard Edition
+Tool Analysis
 ========================
+c'est un outil d'analyse ou d'audit. ce produit logiciel permet de créer des critères 
+d'évaluation de plusieurs types, saisir des valeurs et génère des rapports 
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony2
-application that you can use as the skeleton for your new applications.
+Ca sert à quoi ?
+----------------
 
-For details on how to download and get started with Symfony, see the
-[Installation][1] chapter of the Symfony Documentation.
+Analysis tool permet de :
 
-What's inside?
---------------
+  * configurer les paramètres d'audit;
 
-The Symfony Standard Edition is configured with the following defaults:
+  * déterminer les différentes critères d'analyse selon plusierus catégories;
 
-  * An AppBundle you can use to start coding;
+  * saisir les valeurs réelles qui correspondent aux critères définies;
 
-  * Twig as the only configured template engine;
+  * Analyse (conformité);
 
-  * Doctrine ORM/DBAL;
-
-  * Swiftmailer;
-
-  * Annotations enabled for everything.
-
-It comes pre-configured with the following bundles:
-
-  * **FrameworkBundle** - The core Symfony framework bundle
-
-  * [**SensioFrameworkExtraBundle**][6] - Adds several enhancements, including
-    template and routing annotation capability
-
-  * [**DoctrineBundle**][7] - Adds support for the Doctrine ORM
-
-  * [**TwigBundle**][8] - Adds support for the Twig templating engine
-
-  * [**SecurityBundle**][9] - Adds security by integrating Symfony's security
-    component
-
-  * [**SwiftmailerBundle**][10] - Adds support for Swiftmailer, a library for
-    sending emails
-
-  * [**MonologBundle**][11] - Adds support for Monolog, a logging library
-
-  * [**AsseticBundle**][12] - Adds support for Assetic, an asset processing
-    library
-
-  * **WebProfilerBundle** (in dev/test env) - Adds profiling functionality and
-    the web debug toolbar
-
-  * **SensioDistributionBundle** (in dev/test env) - Adds functionality for
-    configuring and working with Symfony distributions
-
-  * [**SensioGeneratorBundle**][13] (in dev/test env) - Adds code generation
-    capabilities
-
-All libraries and bundles included in the Symfony Standard Edition are
-released under the MIT or BSD license.
-
-Enjoy!
+  * génération des rapports.
 
 [1]:  http://symfony.com/doc/2.6/book/installation.html
 [6]:  http://symfony.com/doc/2.6/bundles/SensioFrameworkExtraBundle/index.html
