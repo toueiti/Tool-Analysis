@@ -14,7 +14,7 @@ Analysis tool permet de :
 
   * saisir les valeurs réelles qui correspondent aux critères définies;
 
-  * Analyse (conformité);
+  * Analyse (degré (%) de conformité);
 
   * génération des rapports.
 
